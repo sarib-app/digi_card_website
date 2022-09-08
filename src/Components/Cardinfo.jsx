@@ -45,7 +45,7 @@ const Cardinfo = ({ shouldShow, closeModal, data }) => {
                 </div>
                 <div className="col-lg-6 mt-2" style={{ color: "rgb(230, 255, 242)" }}>
                   <div className="card-body" style={{ fontFamily: "serif" }}>
-                    <h4 className="card-title"><span className='fw-bold'>Name:</span> {data.item_name}</h4>
+                    <h4 className="card-title"><span className='fw-bold'>NameSSS:</span> {data.item_name}</h4>
                     <h4 className="card-title"><span className='fw-bold'>Type:</span> {data.item_type}</h4>
                     <div className='d-flex'>
                       <h4 className="card-title "><span className='fw-bold'>Colors:</span> {data.item_color}</h4>
